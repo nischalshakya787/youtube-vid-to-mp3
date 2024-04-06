@@ -6,7 +6,7 @@ yt = YouTube('https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley'
 
 # type = yt.streams.all()
 # type = yt.streams.filter(type="video") #Filters only video
-type = yt.streams.filter(only_audio = True) #Filters only mp3
+type = yt.streams.filter(only_audio = True) #Filters only audio
 type_list = list(enumerate(type))
 
 for i in type_list:
